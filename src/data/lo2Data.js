@@ -24,21 +24,9 @@ export const slides = [
     type: 'grid',
     title: "The Power of Formulas",
     items: [
-      { 
-        name: "The '=' Sign", 
-        icon: AlertTriangle, 
-        desc: "The trigger for calculations. Without it, Excel sees only text." 
-      },
-      { 
-        name: "Cell References", 
-        icon: Search, 
-        desc: "Linking to cells like 'B2' makes your data update automatically." 
-      },
-      { 
-        name: "Functions", 
-        icon: Save, 
-        desc: "Use =SUM() or =AVERAGE() to perform complex math instantly." 
-      }
+      { name: "The '=' Sign", icon: AlertTriangle, desc: "The trigger for calculations. Without it, Excel sees only text." },
+      { name: "Cell References", icon: Search, desc: "Linking to cells like 'B2' makes your data update automatically." },
+      { name: "Functions", icon: Save, desc: "Use =SUM() or =AVERAGE() to perform complex math instantly." }
     ]
   },
   { id: 10, type: 'activity_excel', title: "Activity 3: Excel Mastery", instruction: "Calculate the average.", mode: "excel" },
